@@ -24,47 +24,84 @@
 
 <body>
 
-<img alt="logo" class="logo" src="./img/logo.png">
+
 <div class="main-screen">
 
-<!--  <div style="width: 250px; height: 250px; background-color: red; display: flex; flex-direction: column; justify-content: space-between; align-items: center">-->
-<!--    <div style="width: 50px; height: 50px; background-color: green"></div>-->
-<!--    <div style="width: 50px; height: 50px; background-color: green"></div>-->
-<!--  </div>-->
+  <div class="header">
+    <img alt="logo" class="logo" src="./img/logo.png">
+    <div class="main-menu">
+      <span>Главная</span>
+      <span>Курсы</span>
+      <span>Расписание</span>
+      <span>Преподаватели</span>
+      <span>Рассылка</span>
+      <span>Контакты</span>
+    </div>
+    <button class="button">Зайти в кабинет</button>
+  </div>
+
+  <div class="main-content">
+    <div class="content content_align-center">
+      <div class="title">Первый курс<br>по компьютерной сборке</div>
+      <div class="wrapper-number">
+        <div class="number">
+          <div class="number__count">18</div>
+          <div class="number__text">Дней</div>
+        </div>
+        <div class="number">
+          <div class="number__count">18</div>
+          <div class="number__text">Часов</div>
+        </div>
+        <div class="number">
+          <div class="number__count">18</div>
+          <div class="number__text">Минут</div>
+        </div>
+        <div class="number">
+          <div class="number__count">18</div>
+          <div class="number__text">Секунд</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <div class="main-screen__last-line">
     <div class="content">
       <div class="content__main-screen__last-line">
+
         <button class="main-screen__button--active">Заказать услуги</button>
+
         <div class="main-screen__people">
           <div class="space-between">
             <span class="space-between__text">Учеников всего:</span>
-            <span class="space-between--count">200</span>
+            <span class="space-between__count">200</span>
           </div>
           <div class="space-between">
             <span class="space-between__text">Успешно закончили курс:</span>
-            <span class="space-between--count">190</span>
+            <span class="space-between__count">190</span>
           </div>
         </div>
+
         <div class="main-screen__money">
-          <div>
+          <div class="">
             <span class="space-between__text">Заработано учениками:</span>
-            <span class="space-between--count currency">400 000</span>
+            <span class="space-between__count currency currency_margin">400 000</span>
           </div>
           <div class="bar">
             <div class="filled-bar"></div>
           </div>
           <div class="space-between">
-            <span class="stats__students--text">0</span>
-            <span class="currency stats__students--text">1 000 000</span>
+            <span class="space-between__count">0</span>
+            <span class="space-between__count currency">1 000 000</span>
           </div>
         </div>
+
       </div>
     </div>
   </div>
 
 </div>
-<div class="other-main-screen">
+<div class="other-screen">
 </div>
 <script src="js/vendor/modernizr-3.11.2.min.js"></script>
 <script src="js/plugins.js"></script>
