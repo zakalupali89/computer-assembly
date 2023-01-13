@@ -494,21 +494,20 @@ body {
   margin-bottom: 50px;
 }
 
-.start__icon {
+.half-circle-icon {
   margin-right: 10px;
-  /*margin-bottom: 49px;*/
-  width: 90px;
-  height: 45px;
-  padding: 15px 15px 0 15px;
-  border-radius: 45px 45px 0 0;
-  background: linear-gradient(94.78deg, #DF5950 11.19%, #451046 93.72%);
-  -webkit-mask: linear-gradient(#fff 0 0) padding-box,
-  linear-gradient(#fff 0 0) content-box;
-  -webkit-mask-composite: xor;
-  mask: linear-gradient(0, #fff, #fff) padding-box,
-  linear-gradient(0, #fff, #fff) content-box;
-  mask-composite: exclude;
-  transform: rotate(45deg);
+}
+
+.half-circle-icon_rotate_180 {
+  transform: rotate(180deg);
+  margin-right: 10px;
+
+}
+
+.half-circle-icon_rotate_135 {
+  transform: rotate(135deg);
+  margin-right: 10px;
+
 }
 
 .start__infographic {
@@ -604,6 +603,108 @@ body {
   margin-bottom: 30px;
   padding: 0 29px;
 }
+
+.partners__header {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 70px;
+}
+
+.partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.partners__item {
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+  width: 25%;
+  padding: 28px 0;
+  text-align: center;
+}
+
+.partners__img {
+  background-color: green;
+}
+
+.program {
+  text-align: center;
+}
+
+.program-title {
+  margin-top: 76px;
+  margin-bottom: 30px;
+}
+
+.program-text {
+  width: 411px;
+  margin: 0 auto 80px auto;
+}
+
+.program-tree {
+
+}
+
+.program__week {
+  display: flex;
+  height: 95px;
+  width: 365px;
+  align-items: center;
+}
+
+.program__empty-week {
+  height: 85px;
+}
+
+.program__wrap-tree {
+  display: flex;
+  justify-content: center;
+}
+
+.program__wrap-weeks{
+padding: 7px 0;
+}
+
+.program__wrap-weeks_text-align_right {
+  text-align: right;
+}
+
+.program__wrap-weeks_text-align_left {
+  text-align: left;
+}
+
+.program__content-week {
+  margin: 0 20px;
+}
+
+.program__count-week {
+  font-size: 14px;
+  line-height: 160%;
+  margin-bottom: 15px;
+  opacity: 0.5;
+}
+
+.program__about-week {
+  font-size: 18px;
+  line-height: 160%;
+}
+
+.program__branch {
+  width: 40px;
+  height: 0;
+  border: 1px solid #FFFFFF;
+  opacity: 0.3;
+}
+
+.tree-trunk {
+  width: 6px;
+  height: 655px;
+  background: linear-gradient(94.26deg, #C89AFC 9.51%, #7C6AFA 90.23%);
+}
+
 
 
 /*# sourceMappingURL=/main.c52e0fe2.css.map */
