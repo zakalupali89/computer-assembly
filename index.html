@@ -46,7 +46,7 @@
       <span>Рассылка</span>
       <span>Контакты</span>
     </div>
-    <button class="button">Зайти в кабинет</button>
+    <button class="button button_bg_blueviolet-gradient">Зайти в кабинет</button>
   </div>
 
   <div class="main-content">
@@ -78,7 +78,7 @@
     <div class="content">
       <div class="content__main-screen__last-line">
 
-        <button class="main-screen__button--active">Заказать услуги</button>
+        <button class="button button_bg_darkorange-gradient">Заказать услуги</button>
 
         <div class="main-screen__people">
           <div class="space-between">
@@ -132,14 +132,16 @@
 
     <div class="start">
 
-      <div class="start__about">
-        <div class="start__title">
-          <img class="half-circle-icon" src="img/half-circle-icon.png" alt="start icon"/>
-          <div class="title_size_48">Быстрый старт</div>
-        </div>
-        <div class="text_size_16">
+      <div class="header-block">
+
+        <img class="header-block__icon header-block__icon_rotate_45" src="img/half-circle-icon.png"
+             alt="start icon"/>
+        <span class="header-block__title title_size_48">Быстрый старт</span>
+
+        <div class="header-block__text text_size_16">
           Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
         </div>
+
       </div>
 
       <div class="start__infographic">
@@ -226,9 +228,11 @@
     </div>
 
     <div class="partners">
-      <div class="partners__header">
-        <img class="half-circle-icon half-circle-icon_rotate_180" src="img/half-circle-icon.png" alt="partners icon"/>
-        <span class="partners__title title_size_48">Партнеры - топовые бренды</span>
+
+      <div class="header-block">
+        <img class="header-block__icon header-block__icon_rotate_225" src="img/half-circle-icon.png"
+             alt="start icon"/>
+        <span class="header-block__title title_size_48">Партнеры - топовые бренды</span>
       </div>
 
       <ul class="partners__list">
@@ -270,10 +274,15 @@
     </div>
 
     <div class="program">
-      <img class="half-circle-icon half-circle-icon_rotate_135" src="img/half-circle-icon.png" alt="partners icon"/>
-      <div class="program-title title_size_48">Программа обучения</div>
-      <div class="program-text text_size_16">Больше 90% учеников прошли полный курс и смогли собрать свой первый
-        компьютер
+
+      <div class="header-block header-block_display_flex">
+        <img class="header-block__icon header-block__icon_rotate_180" src="img/half-circle-icon.png"
+             alt="start icon"/>
+        <span class="header-block__title title_size_48">Программа обучения</span>
+
+        <div class="header-block__text text_size_16">
+          Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+        </div>
       </div>
 
       <div class="program__wrap-tree">
@@ -370,6 +379,104 @@
 
           <div class="program__empty-week"></div>
 
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="teachers">
+
+      <div class="header-block">
+        <img class="header-block__icon" src="img/half-circle-icon.png"
+             alt="start icon"/>
+        <span class="header-block__title title_size_48">Ваши преподаватели</span>
+      </div>
+
+      <div class="teachers__content">
+
+        <div class="teachers__teacher">
+          <img class="teachers__avatar" src="/img/teacher-1.png" alt="avatar of teacher"/>
+          <div class="teachers__name text_size_24">
+            Дмитрий Иванов
+          </div>
+          <div class="teachers__specialization text_size_16 text_opacity_08">
+            Специалист по видеокартам
+          </div>
+          <button class="button button_bg_black button_border_white">
+            Биография
+          </button>
+        </div>
+
+        <div class="teachers__teacher">
+          <img class="teachers__avatar" src="/img/teacher-2.png" alt="avatar of teacher"/>
+          <div class="teachers__name text_size_24">
+            Дмитрий Иванов
+          </div>
+          <div class="teachers__specialization text_size_16 text_opacity_08">
+            Специалист по видеокартам
+          </div>
+          <button class="button button_bg_black button_border_white">
+            Биография
+          </button>
+        </div>
+
+        <div class="teachers__teacher">
+          <img class="teachers__avatar" src="/img/teacher-3.png" alt="avatar of teacher"/>
+          <div class="teachers__name text_size_24">
+            Дмитрий Иванов
+          </div>
+          <div class="teachers__specialization text_size_16 text_opacity_08">
+            Специалист по видеокартам
+          </div>
+          <button class="button button_bg_black button_border_white">
+            Биография
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="header-block header-block_display_flex">
+
+        <span class="header-block__title title_size_48">Статьи каждую неделю</span>
+
+        <div class="header-block__text text_size_16">
+          Больше 90% учеников прошли полный курс и смогли собрать свой первый компьютер
+        </div>
+
+      </div>
+
+      <form class="footer__form">
+        <!--        <label for="email" style="display:none">Enter email</label>-->
+        <div class="footer__form-wrapper">
+          <label style="visibility:hidden" for="email">enter email</label>
+          <input class="footer__input" id="email" name="email" placeholder="Email" type="text"/>
+          <input class="footer__submit button button_bg_darkorange-gradient" type="submit" value="Подписаться"/>
+        </div>
+      </form>
+
+      <div class="footer__soc-icons">
+
+        <div class="footer__wrapper-soc-icon">
+          <img class="footer__circle-icon" src="/img/circle-icon.png" alt="background soc-icon"/>
+          <img class="footer__soc-icon" src="/img/vk.png" alt="background soc-icon"/>
+        </div>
+
+        <div class="footer__wrapper-soc-icon">
+          <img class="footer__circle-icon" src="/img/circle-icon.png" alt="background soc-icon"/>
+          <img class="footer__soc-icon" src="/img/youtube.png" alt="background soc-icon"/>
+        </div>
+
+        <div class="footer__wrapper-soc-icon">
+          <img class="footer__circle-icon" src="/img/circle-icon.png" alt="background soc-icon"/>
+          <img class="footer__soc-icon" src="/img/facebook.png" alt="background soc-icon"/>
+        </div>
+
+        <div class="footer__wrapper-soc-icon">
+          <img class="footer__circle-icon" src="/img/circle-icon.png" alt="background soc-icon"/>
+          <img class="footer__soc-icon" src="/img/instagram.png" alt="background soc-icon"/>
         </div>
 
       </div>
