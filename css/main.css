@@ -320,7 +320,10 @@ body {
 
 .button:hover {
   box-shadow: 0 0 5px 3px rgb(156, 57, 76);
+}
 
+.button:focus {
+  box-shadow: 0 0 5px 3px rgb(156, 57, 76);
 }
 
 .button_bg_blueviolet-gradient {
@@ -672,7 +675,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
-  margin: 0;
+  margin: 90px 0 0;
   padding: 0;
 }
 
@@ -803,25 +806,21 @@ body {
   margin-top: 60px;
   margin-bottom: 30px;
   position: relative;
-  width: 492px;
-  height: 44px;
 }
 
 .footer__input {
-  position: absolute;
-  top: 0;
-  left: 0;
   padding: 0 20px;
   font-size: 20px;
   background-color: rgba(255, 255, 255, 0.25);
   height: 44px;
-  width: 353px;
-  border-radius: 50px 0 0 50px;
+  width: 490px;
+  border: none;
+  border-radius: 50px;
 }
 
 .footer__submit {
   position: absolute;
-  left: 335px;
+  right: 0;
 }
 
 .footer__soc-icons {
