@@ -546,8 +546,6 @@ body {
 
 .about {
   display: flex;
-  /*flex-wrap: wrap-reverse;*/
-  gap: 134px;
 
   .about__img {
     position: relative;
@@ -574,9 +572,9 @@ body {
   }
 
   .about__wrapper-text {
+    margin-left: calc(20% - 140px);
     padding-top: 70px;
     min-width: 300px;
-    max-width: 636px;
   }
 
 }
@@ -638,12 +636,12 @@ body {
 
   .advantages__info {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
 }
 
 .advantage {
-  width: 33%;
+  flex: 1 0 310px;
 
   .advantage__icon {
     margin-bottom: 60px;
